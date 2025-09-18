@@ -1,14 +1,14 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 
 :root {
-    --font: 'Inter-Variable', serif;
-    --accent-font: 'PressStart2P-Regular', serif;
-    --font-weight-text: 400; /* Normal - для основного текста */
-    --font-weight-title: 700; /* Bold - для заголовков */
-    --shadow-color: #fff;
-    --current-color: #fff;
-    --core-color: #000;
-    --contour-color: none;
-    --main-body-color: none;
-    --sparks-color: #FF0000;
+  --font: 'Inter-Variable', serif;
+  --accent-font: 'PressStart2P-Regular', serif;
+  --font-weight-text: 400; /* Normal - для основного текста */
+  --font-weight-title: 700; /* Bold - для заголовков */
+  --shadow-color: #fff;
+  --current-color: #fff;
+  --core-color: #000;
+  --contour-color: none;
+  --main-body-color: none;
+  --sparks-color: #ff0000;
 }

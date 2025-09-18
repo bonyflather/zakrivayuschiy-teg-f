@@ -3,13 +3,12 @@
 @font-face {
   font-display: swap;
   font-family: 'Inter-Variable';
-  src:
-    local('Inter-Variable'),
+  src: local('Inter-Variable'),
     url('./Inter-Variable.woff2') format('woff2 supports variations'),
     url('./Inter-Variable.woff2') format('woff2-variations'); /* фолбек */
-    font-weight: [100] [900];
-    
-    /* font-stretch: [минимальное значение]% [максимальное значение]%; не существует дя шрифта*/
+  font-weight: [100] [900];
+
+  /* font-stretch: [минимальное значение]% [максимальное значение]%; не существует дя шрифта*/
 }
 
 @font-face {
