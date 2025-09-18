@@ -21,7 +21,7 @@
 
 .header {
     position: relative;
- width: clamp(375px, 100% 2000px);
+ /* width: clamp(375px, 100%, 2000px); */
  
 }
 
@@ -114,7 +114,7 @@ font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
 } 
 
 .content {
-  padding: 0 372px 0;
+  /* padding: 0 372px 0; */
   display: grid;
   grid-auto-flow: row;
 }
@@ -317,18 +317,18 @@ transition:  0.3s ease;
   transition-delay: 0.05s;
 }
 
-.content__button_heart .like-icon.is-liked .main-body {
+.like-icon.is-liked .main-body {
    fill: red;
    transition: fill 0.3s ease;
 }
 
-.content__button_heart .like-icon.is-liked .contour {
+ .like-icon.is-liked .contour {
   fill: red;
   transition: fill 0.3s ease 0.06s;
 
 }
 
-.content__button_heart .like-icon.is-liked .core {
+ .like-icon.is-liked .core {
    fill: red;
    transition: fill 0.3s ease;
 }
@@ -431,7 +431,6 @@ color: #fff;
 position: relative;
 z-index: 2;
 mix-blend-mode: difference;
-margin-bottom: 20px;
 }
 
 .filter1 {
@@ -526,6 +525,7 @@ text-transform: uppercase;
   border: 2px solid #000;
   background-color: #fff;
   margin:0 30px 30px;
+  cursor: pointer;
 }
 
 .popup__button-text {
@@ -562,4 +562,5 @@ height: 28px;
 .content__button_text {
   text-wrap: nowrap;
 }
+
 }
